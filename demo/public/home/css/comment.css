@@ -1,0 +1,25 @@
+*,div,nav,ul,ol,li,i,p,span,img,a,form,input,em,table,thead,tbody,tfoot,footer{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style: none;
+}
+ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	
+}
+body{
+	font-family: 微软雅黑,宋体;
+}
+/*这是清浮动*/
+.cl:after{
+	content:"";
+	height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}

@@ -1,0 +1,194 @@
+.app-download-page .top-wrapper {
+	height: 550px;
+	background: url(../images/main-top.png) no-repeat top
+}
+
+.app-download-page .top-wrapper .top-down {
+	width: 444px;
+	margin: 0 auto;
+	padding-top: 305px
+}
+
+.app-download-page .top-wrapper .down-btns {
+	width: 216px;
+	height: 65px;
+	display: block;
+	margin-left: 200px;
+	float: right
+}
+
+.app-download-page .top-wrapper .down-btns:first-child {
+	margin-bottom: 10px
+}
+
+.app-download-page .main-wrapper .intro {
+	width: 990px;
+	height: 437px;
+	margin: 114px auto 0
+}
+
+.app-download-page .main-wrapper .intro-6 {
+	height: 350px
+}
+
+.app-download-page .main-wrapper .bottom-down {
+	width: 350px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 34px
+}
+
+.app-download-page .main-wrapper .bottom-down .qr-code {
+	width: 130px;
+	height: 130px;
+	background-image: url(../images/sprite.download.png);
+	background-position: 0 0;
+	background-size: 338px 130px
+}
+
+.app-download-page .main-wrapper .bottom-down .down-btns {
+	width: 200px;
+	height: 60px;
+	display: block
+}
+
+.app-download-page .main-wrapper .bottom-down .down-app-btn {
+	margin-bottom: 8px;
+	background-image: url(../images/sprite.download.png);
+	background-position: -138px 0;
+	background-size: 338px 130px
+}
+
+.app-download-page .main-wrapper .bottom-down .down-apk-btn {
+	background-image: url(../images/sprite.download.png);
+	background-position: -138px -68px;
+	background-size: 338px 130px
+}
+
+.app-download-page .foot-wrapper {
+	height: 100px;
+	text-align: center
+}
+/*侧边*/
+.right-floating-layer.min{
+	left:100%;
+	right:20px;
+	margin-left:auto;
+	display:none;
+}
+
+.right-floating-layer{
+	width:60px;
+}
+
+.right-floating-layer{
+	position:fixed;
+	bottom:20px;
+	z-index:4;
+}
+
+.qrcode-hover-box{
+	width:71px;
+	position:relative;
+	left:-11px;
+	text-align:right;
+}
+
+.layer-box:first-child{
+	margin-top:0;
+}
+
+.qrcode-download-right{
+	display:inline-block;
+}
+
+.layer-box{
+	height:60px;
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	background:#000;
+	opacity:.5;
+	cursor:pointer;
+	margin-top:20px;
+}
+
+.layer-box{
+	width:60px;
+}
+
+.qrcode-download-right .qrcode-img{
+	width:28px;
+	height:28px;
+	background-image:url(../images/sprite.scss.png);
+	background-position:-71px 0;
+	background-size:123px 122px;
+	margin-top:16px;
+}
+
+.qrcode-download-right .qrcode-img{
+	display:inline-block;
+}
+
+/*显示的部分*/
+.download-app-boxs{
+	position:absolute;
+	bottom:-80px;
+	left:-286px;
+	width:296px;
+	height:240px;
+	padding-left:6px;
+	padding-right:6px;
+	background-color:transparent;
+	z-index:1000;
+	display:none;
+	border:none;
+}
+
+.download-app-boxs .download-app-left{
+	position:relative;
+	float:left;
+	width:130px;
+	height:180px;
+	padding-top:10px;
+	text-align:center;
+	background-color:#f4f4f4;
+}
+
+.download-app-boxs .qr-code-img{
+	margin:10px auto;
+	width:96px;
+	height:96px;
+}
+.download-app-boxs .qr-code-img > img{
+	width:100%;
+	height:100%;
+}
+
+.download-app-boxs .qr-words{
+	height:18px;
+	line-height:18px;
+	font-size:12px;
+	text-align:center;
+	color:#000;
+}
+
+.download-app-boxs .download-app-right{
+	position:relative;
+	float:left;
+	width:130px;
+	height:180px;
+	padding-top:10px;
+	text-align:center;
+	background-color:#f4f4f4;
+}
+
+.download-app-boxs .qr-more a{
+	color:#d71d32;
+	cursor:pointer;
+}
+
+.icon-top{
+	margin: 20px 0 0 0px;
+}
+/*==============================end--yoho-footer=====================================*/

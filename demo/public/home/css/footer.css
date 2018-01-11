@@ -1,0 +1,133 @@
+/*底部*/
+footer{
+	width: 100%;
+	background: #000;
+}
+footer .foot{
+	width: 90%;
+	margin:0px auto;
+	padding: 20px 0 10px;
+	background: #000;
+}
+/*这是最上面的*/
+footer .foot .foot-top{
+	overflow: hidden;
+	padding-bottom:10px;
+}
+footer .foot .foot-top .left{
+	float: left;
+	font-size:12px;
+	margin-right: 60px;
+}
+footer .foot .foot-top .left .iconfont{
+	color:#fff;
+	font-size:28px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+footer .foot .foot-top .left .red{
+	color: red;
+	display: inline-block;
+}
+footer .foot .foot-top .left .rgbf{
+	color: #fff;
+}
+footer .foot .foot-top .right{
+	float: right;
+	width: 240px;
+	height: 34px;
+	border:1px solid #262626;
+}
+footer .foot .foot-top .right input{
+	width:180px;
+	height: 34px;
+	background: rgba(0,0,0,0);
+	border: none;
+	outline:none;
+	margin-left:5px;
+	color:#666;
+}
+footer .foot .foot-top .right span{
+	color:#666;
+	margin-right: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+}
+/*这是中间的内容*/
+footer .foot .footer-help{
+	overflow: hidden;
+	padding: 15px 0;
+    border-top: 1px solid #262626;
+}
+footer .foot .footer-help ul{
+	font-size:12px;
+	width: 110%;
+	float: left;
+	display: flex;
+	justify-content:space-between;
+}
+footer .foot .footer-help ul li{
+	float: left;
+	width:30%;
+}
+footer .foot .footer-help ul li p span{
+	color:#fff;
+}
+footer .foot .footer-help ul li p a{
+	color: #666;
+}
+footer .foot .footer-help ul li p a:hover{
+	text-decoration: underline;
+}
+footer .foot .footer-help ul li p{
+	line-height: 24px;
+}
+footer .foot .top{
+	width: 100%;
+	overflow: hidden;
+}
+/*这是倒数第二块*/
+footer .foot .footer-link{
+	width: 100%;
+	padding: 10px 0 14px;
+    font-size: 12px;
+}
+footer .foot .footer-link .left-img{
+	width: 20%;
+	float: left;
+}
+footer .foot .footer-link .left-img a{
+	margin-right:5px;
+}
+footer .foot .footer-link .links .police{
+	background: url(../images/police.png) no-repeat;
+	display: inline-block;
+    padding-left: 25px;
+    height: 20px;
+}
+footer .foot .footer-link .links{
+	float: left;
+	width: 80%;
+	color:#666;
+}
+footer .foot .footer-link .links a{
+	display: inline-block;
+	word-break: keep-all;
+	text-align: center;
+	color:#666;
+	margin-bottom: 5px;
+}
+footer .foot .footer-link .links span{
+	padding: 0 10px;
+}
+/*这是最后一部分*/
+footer .foot .bottom{
+	text-align: center;
+    color: #666;
+    padding-top: 20px;
+    line-height: 20px;
+}
+footer .foot .bottom a{
+	color:#666;
+}

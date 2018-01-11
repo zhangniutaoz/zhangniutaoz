@@ -1,0 +1,284 @@
+.nav-topone{
+	width:100%;
+	height:32px;
+	background: #f4f4f4;
+}
+.nav .nav-top{
+	height: 32px;
+	line-height:32px;
+	font-size:12px;
+	margin:0 auto;
+	width:90%;
+	background: #f4f4f4;
+}
+.nav .nav-top .left{
+	margin-left:20px;
+	float: left;
+	height: 32px;
+}
+.nav .nav-top .left .icon-note{
+	display: inline-block;
+	color: #d71d32;
+}
+.nav .nav-top .left a{
+	color: #d71d32;
+}
+.nav .nav-top .right{
+	float: right;
+}
+.nav .nav-top .right ul li{
+	float: left;
+}
+.nav .nav-top .right ul li a{
+	color: #8e8e8e;
+}
+.nav .nav-top .right ul .icon{
+	display: inline-block;
+	margin-top:2px;
+}
+.nav .nav-top .right ul li .icon1{
+	    vertical-align: middle;
+	    font-size: 16px;
+}
+.nav .nav-top .right ul .color{
+	color:#86bf4a;
+}
+.nav .nav-top .right ul .color a{
+	color:#86bf4a;
+}
+.nav .nav-top .right ul .color1{
+	color:#d71d32;
+}
+.nav .nav-top .right ul .color1 a{
+	color:#d71d32;
+}
+.nav .nav-top .right ul .help{
+	position: relative;
+	top:-2px;
+}
+.nav .nav-top .right ul li .nav-drop-down{
+	background: #EAECEB;
+	overflow: hidden;
+	position: absolute;
+	display: none;
+	width:84px;
+	left:0px;
+	top:32px;
+}
+.nav .nav-top .right ul .li{
+	padding-left:10px;
+	padding-right: 10px;
+}
+.nav .nav-top .right ul li .nav-drop-down li{
+	width:84px;
+	border-top:1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+}
+.nav .nav-top .right ul li .download-app-box{
+    position: absolute;
+    top: 32px;
+    margin-left: -35px;
+    display: none;
+    width: 146px;
+    height: 216px;
+    background-color: #f4f4f4;
+}
+.nav .nav-top .right ul li .download-app-box .back{
+    margin: 2px auto 3px;
+    width: 96px;
+    height: 168px;
+    background-image: url(../images/qr-wenle-wechat.png);
+    background-repeat: no-repeat;
+}
+.nav .nav-top .right ul li .download-app-box h5{
+	height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color:#000;
+}
+.nav .nav-top .right ul li .download-app-box .back1{
+    margin: 2px auto 3px;
+    width: 96px;
+    height: 168px;
+    background-image: url(../images/qr-wenle.png);
+    background-repeat: no-repeat;
+}
+.nav .nav-top .right .help .disp{
+	z-index:2;
+}
+/*这是第二个导航*/
+.nav-two{
+	font: inherit;
+	width:100%;
+	overflow: hidden;
+}
+.nav-two .logo{
+	background: url(../images/logo-en.png) no-repeat 50%;
+	width: 182px;
+    height: 53px;
+    margin-top: 22px;
+    position: absolute;
+    left:50%;
+    margin-left:-91px;
+}
+.nav-two .nav-list{
+	display: inline-block;
+    vertical-align: top;
+    padding-top: 45px;
+    float: left;
+    margin-left:4%;
+}
+.nav-two .nav-list li{
+	float: left;
+	padding: 8px 22px 5px;
+    text-align: center;
+}
+.nav-two .nav-list .name-cn a{
+	color: #000;
+}
+.nav-two .nav-list .name-en a{
+	color: #8e8e8e;
+	font-weight:normal
+}
+.nav-two .nav-list .kids{
+	background:#7bd3f9;
+}
+.nav-two .nav-list .pitch h5 a{
+	color:#000;
+	font-weight:normal
+}
+.nav-two  .func-area{
+	float: right;
+    width: 378px;
+    padding-right: 18px;
+    margin-top: 40px;
+    margin-right: 4%;
+}
+.nav-two .func-area .search-hot li{
+	float: left;
+}
+.nav-two .func-area .search-hot li a span{
+	display: inline-block;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-right: 18px;
+}
+.nav-two .func-area .search form{
+	width: 320px;
+	height: 28px;
+	border:1px solid #7bd3f9;
+	background-color: #7bd3f9;
+}
+.nav-two .func-area .search form .search_{
+    width: 79px;
+    height: 28px;
+    float: right;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    line-height:28px;
+}
+.nav-two .func-area .search form .search-key{
+	width: 240px;
+    height: 100%;
+    border: none;
+    background: #fff;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+/*第三个导航*/
+.nav-three{
+	width:100%;
+	height: 40px;
+	background: #7bd3f9;
+	position: relative;
+}
+.nav-three .center-content{
+	width: 92%;
+	margin:0 auto;
+	line-height: 40px;
+}
+.nav-three .center-content a{
+	color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+}
+.nav-three .center-content ul{
+	width: 100%;
+	height: 100%;
+}
+.nav-three .center-content .sub-nav-list > li{
+	line-height: 40px;
+    padding-right: 46px;
+    box-sizing: border-box;
+    margin-right: 36px;
+    display: inline-block;
+}
+.nav-three .center-content ul li ul{
+	width: 100%;
+    height: 410px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    display: none;
+    padding: 30px 0;
+    background-color: #f8f8f8;
+    z-index:101;
+}
+.nav-three .center-content ul li ul a{
+	color:#000;
+}
+
+.nav-three .center-content ul li ul li a{
+	display: block;
+}
+.nav-three .center-content ul li ul li h3{
+	width: 180px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.nav-three .center-content ul li ul li>a{
+	line-height: 14px;
+    height: 14px;
+    margin-bottom: 24px;
+}
+.nav-three .center-content ul li ul li a{
+	color:#a1a1a1;
+}
+.nav-three .center-content ul li ul li .red{
+	color:#e01;
+}
+.nav-three .center-content ul li ul li h3 a{
+    color: #000;
+}
+
+.nav-three .center-content ul li ul div{
+    padding-left: 19px;
+    padding-right: 19px;
+    width: 27%;
+    height: 250px;
+    float: right;
+}
+.nav-three .center-content ul li ul div a{
+	width:100%;
+	text-align: center;
+	font-size: 14px;
+    color: #000;
+}
+.nav-three .center-content ul li ul li{
+	float: left;
+    width: 22%;
+    height: 352px;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    padding: 0 50px;
+}
+
